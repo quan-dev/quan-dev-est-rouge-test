@@ -58,6 +58,16 @@ const Home = () => {
     getData(page, searchParam);
   }, [getData, search]);
 
+  useEffect(() => {
+    const params = new URLSearchParams(search);
+    const searchParam = params.get("search");
+
+    if (searchParam) {
+      formbag.setValue("search", searchParam);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const data = useMemo(() => blogList.blogs.response, [blogList]);
 
   const isLoading = useMemo(
