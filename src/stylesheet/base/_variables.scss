@@ -1,0 +1,92 @@
+// == Breakpoints ===
+$breakpoints: (
+  small: 480px,
+  medium: 769px,
+  wide: 960px,
+  large: 1024px,
+  largest: 1280px,
+  medium-largest: 1400px,
+  super-largest: 1440px,
+  header-medium: 900px,
+);
+
+$color: (
+  // primary:  #f87b06,
+  // secondary: #f75c07,
+  white: #ffffff,
+  black: #000000,
+  grey-a: #f3f3f3,
+  light-gray: #cccccc,
+  dark-gray: #3c414e,
+  dark-gray-hover: #636771,
+  bg-gray: #f5f5f5,
+  bg-gray-light: #eee,
+  bg-dark: #0f1420,
+  bg-light: #212837,
+  text-black: #333333,
+  text-gray: #888888,
+  text-menu-sp: #f29000,
+  text-black-a: #222222,
+  border: #eeeeee,
+  est-bg: #f4f4f4,
+  bg-pink: #ffdede,
+  bg-step: #aaaaaa,
+  bg-table-header: #ddd,
+  est-product-name: #220000,
+  text-require: #fa1340,
+  err-msg: #ec0d0d,
+  green-dark: #13462d,
+  theme-orange: #f87b06,
+  theme-blue: #16408e,
+  theme-light-green: #a0d63d,
+  text-blue-a: #2f315b,
+  text-gray-dark: #444444,
+  bg-yellow: #f1efdc,
+  bg-light-blue: #dde4f0,
+  slick-dot: #57c103,
+  text-blue: #153f8d,
+  faq-orange: #ff6b00,
+  faq-light-green: #a0d600,
+  footer-text-gray: #00684d,
+  theme-blue-hover: #4365a3,
+  theme-orange-hover: #ff8833,
+  theme-light-green-hover: #b3de33,
+  btn-flyer: #78cd35,
+  bg-flyer: #033c2d,
+  red-a: #b30000,
+  green-a: #05381c
+);
+
+html[theme='green'] {
+  --primary: #2b684e;
+  --secondary: #5ac231;
+  --primary-hover: #338670;
+}
+html[theme='orange'] {
+  --primary: #f87b06;
+  --secondary: #f75c07;
+  --primary-hover: #ff8833;
+}
+html[theme='blue'] {
+  --primary: #16408e;
+  --secondary: #295ec0;
+  --primary-hover: #4365a3;
+}
+html[theme='light-green'] {
+  --primary: #a0d63d;
+  --secondary: #649927;
+  --primary-hover: #b3de33;
+}
+
+$font-size: (
+  xs: 11px,
+  sm: 13px,
+  normal: 16px,
+  lg: 18px,
+  xl: 20px,
+  xxl: 24px,
+  xxxl: 30px,
+);
+
+$font-body: 'Noto Sans JP', sans-serif;
+$font-japan: serif;

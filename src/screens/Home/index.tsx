@@ -13,7 +13,7 @@ import Pagination from "../common/Pagination";
 import Item from "./Item";
 import { ButtonSearch } from "./styles";
 
-const Home = () => {
+const Home: React.FC = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const { t } = useTranslation(["home"]);

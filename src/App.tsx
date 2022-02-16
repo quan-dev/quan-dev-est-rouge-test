@@ -1,8 +1,9 @@
+import "./stylesheet/styles.scss";
+
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import routes from "./routes";
-
 const loading = () => (
   <div className="animated fadeIn pt-3 text-center">
     <div className="sk-spinner sk-spinner-pulse" />
